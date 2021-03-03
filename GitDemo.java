@@ -1,7 +1,6 @@
 
 //Bhavani Subbaraman
 
-
 public class GitDemo {
 
   private int previousNumber;
@@ -11,13 +10,8 @@ public class GitDemo {
     previousNumber = 1;
   }
   
-  private int findFactorial(int num) {
-    int factorial = 1;
-    while (num > 0) {
-      factorial = factorial * num;
-      num = num - 1;
-    }
-    return factorial;
+  private int addNumber(int num) {
+    return (previousNumber + num);
   }
   
   private int reverseNumber(int num) {
