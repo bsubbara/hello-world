@@ -14,6 +14,15 @@ public class GitDemo {
     return (previousNumber + num);
   }
   
+  private int findFactorial(int num) {
+    int factorial = 1;
+    while (num > 0) {
+      factorial = factorial * num;
+      num = num - 1;
+    }
+    return factorial;
+  }
+  
   private int reverseNumber(int num) {
     int newNumber = 0;
     while (num != 0) {
